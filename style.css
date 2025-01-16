@@ -182,3 +182,33 @@ nav{
 .products-slider .products::-webkit-scrollbar{
      display: none;
 }
+/* Contact Section */
+
+.contact {
+    padding: 30px 10px; /* Reduced padding for a smaller section */
+    text-align: center;
+    background: greenyellow;
+    color: #fff;
+}
+
+.contact a {
+    margin: 0 15px;
+    font-size: 2rem; /* Adjust icon size */
+    color: #333; /* Change to desired color */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect for Icons */
+.contact a:hover {
+    transform: scale(1.2); /* Scale up the icons on hover */
+    color: #007BFF;
+}
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+    background: #228B22;;
+    padding:20px 60px;
+}
